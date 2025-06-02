@@ -6,6 +6,16 @@ import { motion } from "framer-motion"
 export function CustomCursor() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [isHovering, setIsHovering] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768)
+    }
+    checkMobile()
+    window.addEventListener("resize", checkMobile)
+    return () => window.removeEventListener("resize", checkMobile)
+  }, [])
 
   useEffect(() => {
     const updateMousePosition = (e: MouseEvent) => {
@@ -32,6 +42,8 @@ export function CustomCursor() {
       })
     }
   }, [])
+
+  if (isMobile) return null
 
   return (
     <motion.div
