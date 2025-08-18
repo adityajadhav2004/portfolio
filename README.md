@@ -2,10 +2,13 @@
 
 A modern, responsive portfolio website built with Next.js and React, designed to showcase the projects, skills, and experience of Aditya Jadhav.
 
-[![Watch the demo](https://img.youtube.com/vi/ttaRJI9OBEM/0.jpg)](https://youtu.be/ttaRJI9OBEM)
+##  Live Demo
+
+[![Watch the Full Demo on YouTube](https://img.youtube.com/vi/ttaRJI9OBEM/maxresdefault.jpg)](https://youtu.be/ttaRJI9OBEM)
 
 
-
+Or, if you'd like to download or watch the full video:
+[Download/Watch the MP4](https://github.com/adityajadhav2004/portfolio/raw/main/Screen%20Recording%202025-08-07%20101742.mp4)
 
 ## Features
 
