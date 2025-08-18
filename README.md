@@ -2,6 +2,10 @@
 
 A modern, responsive portfolio website built with Next.js and React, designed to showcase the projects, skills, and experience of Aditya Jadhav.
 
+[![Watch the demo](https://img.youtube.com/vi/ttaRJI9OBEM/0.jpg)](https://youtu.be/ttaRJI9OBEM)
+
+
+
 ## Features
 
 - ⚡ Fast and SEO-friendly
